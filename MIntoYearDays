@@ -19,8 +19,9 @@ long years = (long) (min / (60 * 24 * 365));
  	}
 }
 
-Output:
+/*Output:
 -----------------
 Enter number of minutes = 3256789
 
 min 3256789 is approx 6 years & 210 days
+*/
