@@ -1,0 +1,26 @@
+/*Write a Java program to convert minutes into a number of years and days. 
+----------------------------------------------------------------------------------------------------------------------
+*/
+import java.util.Scanner;
+
+public class MintoYearandDay
+{
+public static void main(String[] args) 
+{
+Scanner sc = new Scanner(System.in);
+  		System.out.println("Enter number of minutes =");
+  		double min = sc.nextDouble();
+
+long years = (long) (min / (60 * 24 * 365));
+  		long days = (long) (min / 60 / 24) % 365;
+
+  		System.out.println(min + " is approx " + years + " years & " + days + " days");
+
+ 	}
+}
+
+Output:
+-----------------
+Enter number of minutes = 3256789
+
+min 3256789 is approx 6 years & 210 days
